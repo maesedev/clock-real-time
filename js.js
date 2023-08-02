@@ -15,14 +15,14 @@ let date = new Date()
 
 const mover_secundero = ()=>{
 
-	secundero.style.transform = `rotate(${date.getSeconds()*6}deg)`
+	secundero.style.transform = `rotate(${date.getSeconds() * 6}deg)`
 	// minutero.style.transition = 'transmform .3s ease'
 
 }
 
 
 const mover_minuteroYHorario = ()=>{
-	if(true){}
+	
 	minutero.style.transform = `rotate(${date.getMinutes()*6}deg)`;
 
 
